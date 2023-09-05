@@ -1,45 +1,31 @@
-Algoritmo "8a Questão"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "8a QuestÃ£o"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Augusto BrandÃ£o
 // Data atual  : 04/09/2023
 Var
-   // Seção de Declarações das variáveis
-   CDverde, CDazul, CDamarelo, CDvermelho: inteiro
-   operacao: real
-   CDverdeValor, CDazulValor, CDamareloValor, CDvermelhoValor: real
-   
-   opereracaoVerde,operacaoAzul,operacaoAmarelo,operacaoVermelho: real
-   valorTotal:real
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   cor : caracter
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval ("CD Verde R$ 10,00")
-   Escreval ("CD Azul R$ 20,00")
-   Escreval ("CD Amarelo R$ 30,00")
-   Escreval ("CD Vermelho R$ 40,00")
-   Escreval ("Digite a quantidade de CD's Verdes: ")
-   leia (CDverde)
-   Escreval ("Digite a quantidade de CD's Azuis: ")
-   leia (CDAzul)
-   Escreval ("Digite a quantidade de CD's Amarelos: ")
-   leia (CDamarelo)
-   Escreval ("Digite a quantidade de CD's Vermerlhos: ")
-   leia (CDvermelho)
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreva("Informe a cor do CD: ")
+   leia(cor)
+   escreval("")
 
-   limpatela
-   CDverdeValor <- 10
-   CDazulValor <- 20
-   CDamareloValor <- 30
-   CDvermelhoValor <- 40
-
-   opereracaoVerde <- CDverde * CDverdeValor
-   operacaoAzul <- CDazul * CDazulValor
-   operacaoAmarelo <- CDamarelo * CDamareloValor
-   operacaoVermelho <- CDVermelho * CDvermelhoValor
-   valorTotal <- opereracaoVerde+operacaoAzul+operacaoAmarelo+operacaoVermelho
-   Escreva ("Valor total da compra R$",valorTotal,",00")
-
+   se(cor = "verde") ou (cor = "Verde")entao
+      escreva("Valor da cor verde Ã© R$10,00")
+   senao
+      se(cor = "azul") ou (cor = "Azul")entao
+         escreva("Valor da cor azul Ã© R$20,00")
+      senao
+         se(cor = "amarelo") ou (cor = "Amarelo")entao
+            escreva("Valor da cor amarela Ã© R$30,00")
+         senao
+            escreva("Valor da cor vermelho Ã© R$40,00")
+         fimse
+      fimse
+   fimse
 
 
 
