@@ -1,39 +1,39 @@
-Algoritmo "5a Questão"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "5a QuestÃ£o"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 31/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    valorA,valorB,soma,subtracao,multiplicacao,divisao: real
    operacao: caracter
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreva("Digite o valor A: ")
    leia (valorA)
    escreva("Digite o valor B: ")
    leia (valorB)
-   escreva("Qual a operação deseja,Soma, Subtração, Divisão ou Multiplicaçaõ:")
+   escreva("Qual a operaÃ§Ã£o deseja,Soma, SubtraÃ§Ã£o, DivisÃ£o ou MultiplicaÃ§aÃµ:")
    leia(operacao)
    limpatela
    //SOMA
-   se(operacao = "Adição") OU (operacao = "adição")entao
+   se(operacao = "Soma") OU (operacao = "soma")entao
    soma<- valorA + valorB
    Escreval("Resultado: ",soma)
    fimse
-   //subtração
-   se(operacao = "subtração") OU (operacao = "Subtração")entao
+   //subtraÃ§Ã£o
+   se(operacao = "subtraÃ§Ã£o") OU (operacao = "SubtraÃ§Ã£o")entao
    subtracao<- valorA - valorB
    Escreval("Resultado: ",subtracao)
    fimse
-  //multiplicação
-   se(operacao = "multiplicação") OU (operacao = "multiplicação")entao
+  //multiplicaÃ§Ã£o
+   se(operacao = "MultiplicaÃ§Ã£o") OU (operacao = "multiplicaÃ§Ã£o")entao
    multiplicacao<- valorA * valorB
    Escreval("Resultado: ",multiplicacao)
    fimse
-   //divisão
-   se(operacao = "Divisão") OU (operacao = "divisão")entao
+   //divisÃ£o
+   se(operacao = "DivisÃ£o") OU (operacao = "divisÃ£o")entao
    multiplicacao<- valorA / valorB
    Escreval("Resultado: ",divisao)
    fimse
