@@ -1,20 +1,20 @@
-Algoritmo "7a Questão"
+Algoritmo "7a QuestÃ£o"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 01/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    valorDoLapis: real
    desconto:real
    quantidadeDoProduto:inteiro
    TotalAPagar,totalValor: real
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    valorDoLapis<- 2.00 :3:2
-   escreval ("Lápis por apenas R$",valorDoLapis)
-   escreva ("Digite q quantidade do produto: ")
+   escreval ("LÃ¡pis por apenas R$",valorDoLapis)
+   escreva ("Digite a quantidade do produto: ")
    leia (quantidadeDoProduto)
    limpatela
    totalValor<- quantidadeDoProduto * valorDoLapis
