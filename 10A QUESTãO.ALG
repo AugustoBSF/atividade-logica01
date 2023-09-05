@@ -1,22 +1,22 @@
-Algoritmo "10a Questão"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "10a QuestÃ£o"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 04/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    precoA, precoG, litro, valor, desconto, valorPagar : real
    combustivel : caracter
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    precoA <- 3.79
    precoG <- 6.59
 
-   escreva("Informe o combustível: -A: álcool; G: gasolina: ")
+   escreva("Informe o combustÃ­vel: -A: Ã¡lcool; G: gasolina: ")
    leia(combustivel)
-   escreva("Informe a quantidade em litros do combustivel")
+   escreva("Informe a quantidade em litros do combustivel: ")
    leia(litro)
    limpatela
 
@@ -26,7 +26,7 @@ Inicio
       desconto <- valor * 0.2
       valorPagar <- valor - desconto
 
-      escreval("Combustível escolhido: ", combustivel)
+      escreval("CombustÃ­vel escolhido: ", combustivel)
       escreval("Quantidade em litros: ", litro, " L")
       escreval("Valor: R$", valor)
       escreval("Desconto: R$", desconto)
@@ -41,7 +41,7 @@ Inicio
          desconto <- valor * 0.4
          valorPagar <- valor - desconto
 
-         escreval("Combustível escolhido: ", combustivel)
+         escreval("CombustÃ­vel escolhido: ", combustivel)
          escreval("Quantidade em litros: ", litro, " L")
          escreval("Valor: R$", valor)
          escreval("Desconto: R$", desconto)
@@ -55,7 +55,7 @@ Inicio
             desconto <- valor * 0.3
             valorPagar <- valor - desconto
 
-            escreval("Combustível escolhido: ", combustivel)
+            escreval("CombustÃ­vel escolhido: ", combustivel)
             escreval("Quantidade em litros: ", litro, " L")
             escreval("Valor: R$", valor)
             escreval("Desconto: R$", desconto)
@@ -67,7 +67,7 @@ Inicio
             desconto <- valor * 0.5
             valorPagar <- valor - desconto
 
-            escreval("Combustível escolhido: ", combustivel)
+            escreval("CombustÃ­vel escolhido: ", combustivel)
             escreval("Quantidade em litros: ", litro, " L")
             escreval("Valor: R$", valor)
             escreval("Desconto: R$", desconto)
